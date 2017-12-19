@@ -7,7 +7,7 @@ setup(name='yarcc_easy',
       author='Dan Ellis',
       author_email='daniel.ellis.research@gmail.com',
       license='MIT',
-      packages=['YARRCeasy'],
+      packages=['yarcc_easy'],
       zip_safe=True)
       
       

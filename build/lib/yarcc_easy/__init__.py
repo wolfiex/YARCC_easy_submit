@@ -147,7 +147,7 @@ if args.run:
         validity = os.popen('qalter -w p %s'%newid).read()
         print validity
         if 'no suitable queues' in validity:
-              print u'\u001b[34m\nNo suitable queues: Terminating %s\n\u001b[0m'%newid
+              print u'\u001b[34m\nNo queues: Terminating %s\n\u001b[0m'%newid
               os.system('qdel %s'%newid)
         
         

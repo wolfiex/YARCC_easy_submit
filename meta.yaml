@@ -19,6 +19,6 @@ test:
     -yarcc_easy
 
 about:
-  home:https://github.com/wolfiex/dsmacc-python.git
+  home:https://github.com/wolfiex/YARCC_easy_submit.git
   license:MIT
   license_file:LICENSE
