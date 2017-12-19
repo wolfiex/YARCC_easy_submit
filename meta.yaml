@@ -1,10 +1,10 @@
 package:
-  name:yarcc_easy
-  version:"0.0.1"
+  name: yarcc_easy
+  version: "0.0.1"
 
 source:
-  git_rev:v0.0.1
-  git_url:https://github.com/wolfiex/YARCC_easy_submit.git
+  git_rev: v0.0.1
+  git_url: https://github.com/wolfiex/YARCC_easy_submit.git
 
 requirements:
   build:
@@ -13,12 +13,17 @@ requirements:
 
   run:
     - python
+    - argparse
 
 test:
   imports:
-    -yarcc_easy
+    - yarcc_easy
 
 about:
-  home:https://github.com/wolfiex/YARCC_easy_submit.git
-  license:MIT
-  license_file:LICENSE
+  home: https://github.com/wolfiex/YARCC_easy_submit
+  license: MIT
+  license_file: LICENSE
+
+extra:
+  maintainers:
+   - Daniel Ellis
