@@ -1,0 +1,9 @@
+#!/usr/bin/bash
+### Genearated using https://github.com/wolfiex/YARCC_easy_submit.git ####
+#$ 
+#$ -cwd -V 
+#$ -l h_rt=01:00:00
+#$ -l h_vmem=1G
+#$ -o ./YARCC_Outputs
+#$ -e ./YARCC_Outputs
+python test.py 
