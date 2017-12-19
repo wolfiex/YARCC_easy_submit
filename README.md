@@ -4,7 +4,13 @@ It automatically:
 
 * checks if a submission may be accepted in a queue upon submission
 * easily creates a jobfile and submits this
-* allows simple delettion of jobs. 
+* allows simple delettion of jobs.
+
+
+#### Install
+
+`conda install -c wolfiex yarcc_easy`
+
 
 Run with  `python -m yarcc_easy <args>`. the `-m` loads the module.
 
@@ -24,7 +30,7 @@ psub --help
 
 
 
-#### Allowed arguments may be viewed using 
+#### Allowed arguments may be viewed using
 
 ```
 python -m yarcc_easy --help
@@ -38,7 +44,7 @@ usage: -c [-h] [--command COMMAND] [--ncores NCORES]
           [--error_dir ERROR_DIR] [--source SOURCE] [--run]
           [--runfile RUNFILE] [--delete] [--watch] [--checkall]
 
- The lazy way to submit scripts 
+ The lazy way to submit scripts
 
 optional arguments:
   -h, --help            show this help message and exit
@@ -103,7 +109,5 @@ Select runs to delete (space separated):
    3 - 1548102 0.00000 yarcc.job  usr123        qw    12/18/2017 22:59:26
    4 - 1548103 0.00000 yarcc.job  usr123        qw    12/18/2017 23:00:27
    5 - 1548104 0.00000 yarcc.job  usr123        qw    12/18/2017 23:00:54
-   
+
 ```
-
-
