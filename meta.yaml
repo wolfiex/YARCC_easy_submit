@@ -14,9 +14,14 @@ requirements:
   run:
     - python
     - argparse
+    - os
+    - re
+    - sys
 
 test:
   imports:
+    - argparse
+    - yarcc_easy
 
 about:
   home: https://github.com/wolfiex/YARCC_easy_submit
@@ -26,3 +31,6 @@ about:
 extra:
   maintainers:
    - Daniel Ellis
+
+build:
+  noarch: generic
