@@ -9,7 +9,7 @@ source:
 
 requirements:
   build:
-    - python {{PY_VER}}*,>=2.7,<3.3|>=3.4
+    - python 
     - setuptools
 
   run:

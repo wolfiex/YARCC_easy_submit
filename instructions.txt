@@ -3,10 +3,9 @@ conda create -n python2 python=2.7 anaconda
 source activate python2
 
 conda build --python=2.7 .
- or
- conda-build-all .
 
- conda convert -f --platform all  /Users/dna/miniconda2/conda-bld/osx-64/yarcc_easy-0.0.1-py27_0.tar.bz2 -o outputdir\
+
+ conda convert -f --platform all /Users/dna/miniconda2/conda-bld/osx-64/yarcc_easy-0.0.1-py27_0.tar.bz2 -o outputdir\
 
 
  anaconda upload outputdir/*/* --force

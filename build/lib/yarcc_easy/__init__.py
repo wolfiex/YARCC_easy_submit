@@ -97,9 +97,9 @@ if args.command :
     if args.ncores>1:
 
         if args.distributed:
-            string +=  '#$ -pe ib %d\n'%args.job_variables
+            string +=  '#$ -pe ib %d\n'%args.ncores
         else:
-            string +=  '#$ -pe smp %d\n'%args.job_variables
+            string +=  '#$ -pe smp %d\n'%args.ncores
 
 
     if float(args.mem)/args.ncores < args.ncores:
