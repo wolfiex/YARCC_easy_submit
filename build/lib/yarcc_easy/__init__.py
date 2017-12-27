@@ -7,9 +7,9 @@ from argparse import ArgumentParser
 A submission program for YARCC
 
 Queue data
-its-48hour	48 hours	69	1462	16/20/24/28 - 64/128/256/512GB
-64/128its-7day	7 days	10	180	16/20 - 64/128GB
-its-14day	14 days	8	112	16/20 - 64/128GB
+its-48hour	    48 hours	69	1462	16/20/24/28 - 64/128/256/512GB
+64/128its-7day	7 days	    10	180	16/20 - 64/128GB
+its-14day	    14 days	     8	112	16/20 - 64/128GB
 its-nvidia-k20	48 hours & 7 days	2	34	10/24 - 64GB
 its-nvidia-k40	48 hours & 7 days	2	20	10 - 64GB
 its-nvidia-k80	48 hours	1	10	10 - 128GB
