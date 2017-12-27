@@ -8,11 +8,11 @@ source:
 
 requirements:
   build:
-    - python
+    - python {{PY_VER}}*,>=2.7,<3.3|>=3.4
     - setuptools
 
   run:
-    - python
+    - python {{PY_VER}}*,>=2.7,<3.3|>=3.4
     - argparse
 
 test:
