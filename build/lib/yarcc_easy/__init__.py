@@ -145,7 +145,7 @@ if args.run:
         newfile = os.popen('qsub %s'%runfile).read()
         newid = newfile.split(' ')[2]
         validity = os.popen('qalter -w p %s'%newid).read()
-        print validity
+        print '\n'.join(filter(lambda x:'has no permission' not in x, validity.split('\n')))
         if 'no suitable queues' in validity:
               print u'\u001b[34m\nNo queues: Terminating %s\n\u001b[0m'%newid
               os.system('qdel %s'%newid)

@@ -8,6 +8,10 @@ setup(name='yarcc_easy',
       author_email='daniel.ellis.research@gmail.com',
       license='MIT',
       packages=['yarcc_easy'],
+         install_requires=[
+            'sys',
+            're',
+            'argparse',
+            'os',
+        ],
       zip_safe=True)
-      
-      

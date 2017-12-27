@@ -1,6 +1,7 @@
 package:
   name: yarcc_easy
   version: "0.0.1"
+  dependencies: python 2.7*
 
 source:
   git_rev: v0.0.1
@@ -13,11 +14,10 @@ requirements:
 
   run:
     - python
-    - argparse
+
 
 test:
   imports:
-    - argparse
 
 about:
   home: https://github.com/wolfiex/YARCC_easy_submit
